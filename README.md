@@ -1,17 +1,19 @@
-# Bmi-Calculator
+# BMI Calculator
 
-hello,
-in this repositry you will get bmi-calculator web app developed through express.js with node.js. I created this web app while learning node.js 
+Welcome to the BMI Calculator repository. This web application was developed using Express.js with Node.js. It was created as a part of learning Node.js.
 
-what is Bmi Calculator?
-ans:The Body Mass Index (BMI) Calculator can be used to calculate BMI value and corresponding weight status while taking age into consideration. Use the "Metric Units" tab for the International System of Units or the "Other Units" tab to convert units into either US or metric units. Note that the calculator also computes the Ponderal Index in addition to BMI, both of which are discussed below in detail.
+## What is the BMI Calculator?
 
-Healthy BMI range: 18.5 kg/m2 - 25 kg/m2
-Healthy weight for the height: 59.9 kgs - 81.0 kgs
-Ponderal Index: 11.1 kg/m3
+The Body Mass Index (BMI) Calculator helps determine the BMI value and corresponding weight status, taking age into account. You can use the "Metric Units" tab for the International System of Units or the "Other Units" tab to convert units into US or metric units. Additionally, this calculator computes the Ponderal Index, explained in detail below.
 
+- **Healthy BMI Range:** 18.5 kg/m² - 25 kg/m²
+- **Healthy Weight for Height:** 59.9 kgs - 81.0 kgs
+- **Ponderal Index:** 11.1 kg/m³
 
-cool,there is no style.css its very basic web app.i devloped this while i was a begieneer in backend .
+The web app is basic and does not include a `style.css` file as it was developed during the early stages of learning backend development.
 
-to run this app,open terminal and enter
-$nodemon calculator.js
+## Running the App
+
+To run this application, open your terminal and enter the following command in your termianl:
+
+`nodemon calculator.js`
