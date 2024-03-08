@@ -14,6 +14,6 @@ The web app is basic and does not include a `style.css` file as it was developed
 
 #### Running the App
 
-To run this application, open your terminal and enter the following command in your termianl:
+To run this application, open your terminal and enter the following command in your terminal:
 
 `nodemon calculator.js`
