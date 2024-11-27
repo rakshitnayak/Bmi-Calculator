@@ -5,6 +5,10 @@ const app = express();
 app.use(bodyParser.urlencoded({ extened: true }));
 
 app.get("/", function (req, res) {
+  res.sendFile(__dirname + "/index.html");
+});
+
+app.get("/bmi", function (req, res) {
   res.sendFile(__dirname + "/bmicalculator.html");
 });
 
@@ -17,6 +21,6 @@ app.post("/", function (req, res) {
   res.send("your bmi is  " + result);
 });
 
-app.listen(3000, function () {
-  console.log("server started in port 3000");
+app.listen(4000, function () {
+  console.log("server started in port 4000");
 });
