@@ -4,6 +4,7 @@
   "description": "Building a calculator",
   "main": "calculator.js",
   "scripts": {
+    "dev": "node calculator.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Rakshit nayak",
